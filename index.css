@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+main{
+    width:100%;
+    height:100vh;
+    background-color:#104F55 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    width:600px;
+    min-height:500px;
+    background-color:#32746D;
+    border-radius: 5px;
+    padding:15px;
+}
+
+ #item{
+    padding: 10px;
+    font-size: 20px;
+width:100%;
+border:0;
+outline: 0;
+display: block; 
+
+ box-shadow: 0px 0px 1px grey;
+} 
+
+#to-do-box{
+    /* background-color:#9EC5AB ; */
+
+}
+
+#to-do-box {
+    margin: auto;
+    position: relative;
+    background-color: aliceblue;
+    padding:5px;
+
+    
+}
+
+#to-do-list i {
+position: absolute;
+right:10px
+}
